@@ -1,5 +1,7 @@
 import { Heading, HStack, Icon, Text, VStack } from 'native-base';
+
 import {MaterialIcons} from '@expo/vector-icons'
+
 import { UserPhoto } from './UserPhoto';
 import { TouchableOpacity } from 'react-native';
 
@@ -19,10 +21,12 @@ export function HomeHeader(){
           size={16}
           mr={4}
       />
+
       <VStack flex={1}>
         <Text color="gray.100" fontSize="md">
           Olá
         </Text>
+
         <Heading color="gray.100" fontSize="md" fontFamily="heading">
           Rodrigo
         </Heading>
